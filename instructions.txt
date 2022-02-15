@@ -1,0 +1,8 @@
+1.Add an appbar with name "Dialog Demo"
+
+2. When alert button is pressed, show an alert dialog with the text user entered. Alert format should be according to native platform. (use method NativeDialog
+provided
+
+3. Increase the size of alert button to occupy all horizontal space with a padding of 20 pixels
+
+4. If user pressed ok for Confirm alert, display text "Confirmed" below button. If they pressed cancel, display "Unconfirmed"

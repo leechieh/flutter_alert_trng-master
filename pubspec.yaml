@@ -1,0 +1,30 @@
+name: native_dialog
+description: A Flutter plugin to trigger native alert and confirm dialogs.
+version: 0.1.0
+
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.test.native_dialog
+        pluginClass: NativeDialogPlugin
+      ios:
+        pluginClass: NativeDialogPlugin
+      web:
+        pluginClass: NativeDialogWeb
+        fileName: native_dialog_web.dart
